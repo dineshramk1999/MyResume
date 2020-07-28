@@ -1,0 +1,58 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#main-header i{
+    width: 50px;
+    height: auto;
+}
+#main-header .bg-black{
+    background-color: black;
+    padding: flex;
+}
+#main-header .port-item{
+    width: 30%;
+    text-align: center;
+}
+
+#main-header .port-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#sec-2 .w-5{
+    width: 160px !important;
+}
+
+#contact .w-5{
+    width: 114.5px !important;
+}
+
+@media(max-width:1199px){
+    #main-header img{
+        width: 100%;
+        height: 100% !important; 
+     }
+    #main-header .port-item{
+        width: 25% !important;
+    }
+}
+
+@media (max-width:460px){
+    #main-header .port-item{
+        width: 25%;
+    }
+    #main-header .port-item span{
+        visibility: hidden;
+    }
+}
+@media(min-width:1199px){
+    #main-header .port-item{
+        padding: 1.8rem !important;
+    }
+    
+}
+
+#contact i{
+    padding-right: 20px;
+}
